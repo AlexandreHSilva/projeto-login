@@ -2,12 +2,13 @@
 
 /*Demais tamanhos */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){ /* CONFIG TABLET*/
     body{
         background-image: linear-gradient(to top,#f7e8a6 , #ffbd87);
     }
     #login{
         width: 80vw;
+        height: 300px;
 
     }
     #login > #imagem {
@@ -23,12 +24,13 @@
 }
     
 
-@media screen and (min-width:992px){
+@media screen and (min-width:992px){ /* CONFIG TELA G.*/
     body{
         background-image: linear-gradient(to top,#f7e8a6 , #ffbd87);
     } 
     #login{
         width: 950px;
+        height: 400px;
 
     }
     #login > #imagem{
@@ -45,7 +47,7 @@
     
     }
     #formulario > p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     
 }
